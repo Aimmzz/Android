@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".DetailData">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sekolahku2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view01"
+            android:text=" Nomor "
+            android:drawableLeft="@drawable/ic_baseline_create_24"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text=" TextView"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Nama"
+            android:drawableLeft="@drawable/ic_baseline_group_24"
+            android:id="@+id/text_view02"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Tanggal Lahir"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:id="@+id/text_view03"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Jenis Kelamin"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:id="@+id/text_view04"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Alamat"
+        android:drawableLeft="@drawable/ic_baseline_place_24"
+        android:id="@+id/text_view05"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgislami"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_walisongo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="Wali Songo" />
+
+        <Button
+            android:id="@+id/btn_imamarbaah"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="move2"
+            android:text="Imam Arba'ah" />
+
+        <Button
+            android:id="@+id/btn_perawihadist"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Perawi Hadist"
+            android:onClick="move3"/>
+        <Button
+            android:id="@+id/btn_empatKhalifah"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Khulafaur Rasyidin"
+            android:onClick="move4"/>
+        <Button
+            android:id="@+id/about"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="About"
+            android:onClick="move5"/>
+
+    </LinearLayout>
+
+</ScrollView>

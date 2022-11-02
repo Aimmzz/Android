@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_list"
+        android:title="@string/list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_gird"
+        android:title="@string/gird"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_cardView"
+        android:title="@string/card_view"
+        app:showAsAction="never"/>
+
+</menu>

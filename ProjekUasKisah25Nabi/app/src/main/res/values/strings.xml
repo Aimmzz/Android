@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjekUasKisah25Nabi</string>
+    <string name="nama_nabi">Nama Nabi</string>
+    <string name="tempat_diutus">Tempat Diutus</string>
+    <string name="tahun_kelahiran_sm">Tahun Kelahiran(SM)</string>
+    <string name="usia">Usia</string>
+</resources>
